@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Олеся Коногорская](https://up.htmlacademy.ru/htmlcss/35/user/2180437).
-* Наставник: [Ирина Малиновская](https://up.htmlacademy.ru/htmlcss/35/user/29644).
+* Наставник: [Ирина Малиновская :))](https://up.htmlacademy.ru/htmlcss/35/user/29644).
 
 ---
 
