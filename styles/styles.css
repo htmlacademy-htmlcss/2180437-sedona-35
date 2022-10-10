@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color:#333333;
+  background-color:#F2F2F2;
+}
+.page-header {
+  color: #000000;
+  background-color: #ffffff;
+
+}
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+}
+.main-index {
+  color:#333333;
+  background-color:#F2F2F2;
+  background-image: url("../images/mountain.jpg");
+  background-size: 90% auto; /* автоматически расширяет фонпри увеличении. Нужно сделать рамку и выставить картинку по центру*/
+  background-repeat: no-repeat; /* убирает дублирование фоновой картинки*/
+}
+.heading {
+  text-align: center;
+}
+.heading-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase; /*делает все буквы заглавными*/
+}
+.heading-description {
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+.advantages-list {
+  text-align: center;
+  color:#FFFFFF;
+  text-transform: uppercase;
+}
+.advantages-title{
+  text-transform: uppercase;
+}
+.sedona-services{
+  text-align: center;
+}
+.index-columns{
+  color: #000000;
+
+
+}
+.services-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
