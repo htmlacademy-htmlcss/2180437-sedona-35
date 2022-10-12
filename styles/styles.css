@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color:#333333;
+  background-color:#F2F2F2;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.page-header {
+  color: #000000;
+  background-color: #ffffff;
+
+}
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+}
+.promo {
+  color:#333333;
+  background-color:#F2F2F2;
+  background-image: url("../images/mountain.jpg");
+  background-size: 100% auto; /* автоматически расширяет фонпри увеличении. Нужно сделать рамку и выставить картинку по центру*/
+  background-repeat: no-repeat; /* убирает дублирование фоновой картинки*/
+}
+.heading {
+  text-align: center;
+}
+.heading-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase; /*делает все буквы заглавными*/
+}
+.heading-description {
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+.advantages-list {
+  text-align: center;
+  color:#FFFFFF;
+
+}
+.advantages-title{
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.advantages-description {
+  text-transform: inherit;
+}
+.advantages-item {
+  background-color:#82B3D3;
+}
+.sedona-services{
+  text-align: center;
+}
+.index-columns{
+  color: #000000;
+}
+.services-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.services-description {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+.caption  {
+  text-align: center;}
+.caption-title {
+  text-transform: uppercase;
+}
+.caption a {
+  text-decoration: none;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color:#FFFFFF;
+
+}
+.subscribe-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color:#FFFFFF;
+}
+.subscribe{
+  text-align: center;
+  color:#FFFFFF;
+}
+.page-footer a {
+  text-decoration: none;
+  color: #000000;
+}
+.footer-contacts-address-phone{
+  font-size: 40px;
+  line-height: 40x;
+  font-weight: 700;
+}
