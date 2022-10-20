@@ -19,18 +19,40 @@
   src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
+html {
+  height: 100%;
+}
+
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
-  line-height: 21px;
   color:#333333;
   background-color:#F2F2F2;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
 }
 .page-header {
   color: #000000;
   background-color: #ffffff;
 
+}
+.navigation {
+  display: flex;
+  width: 507px;
+  margin: 0 auto;
+}
+.navigation-list {
+  width: 492px;
+  margin: 0;
+  padding: 0;
+}
+.navigation-user {
+  max-width: 125px;
+  margin-left: auto;
 }
 .navigation-link {
   font-family: "PT Sans", sans-serif;
@@ -42,13 +64,24 @@ body {
   text-align: center;
   text-decoration: none;
 }
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.promo-logo {
+  display: block;
+  margin: 0 auto;
+}
+
 .promo {
   color:#333333;
   background-color:#F2F2F2;
   background-image: url("../images/mountain.jpg");
-  background-size: 100% auto; /* автоматически расширяет фонпри увеличении. Нужно сделать рамку и выставить картинку по центру*/
+  background-size: 100% auto; /* автоматически расширяет фон при увеличении. Нужно сделать рамку и выставить картинку по центру*/
   background-repeat: no-repeat; /* убирает дублирование фоновой картинки*/
+  height: 485px;
 }
+
 .heading {
   text-align: center;
 }
@@ -68,8 +101,7 @@ body {
 .advantages-list {
   text-align: center;
   color:#FFFFFF;
-
-}
+  }
 .advantages-title{
   font-family: "PT Sans", sans-serif;
   font-size: 24px;
@@ -83,10 +115,16 @@ body {
   background-color:#82B3D3;
 }
 .sedona-services{
-  text-align: center;
+     text-align: center;
 }
 .index-columns{
+  display: flex;
+  justify-content: space-between;
   color: #000000;
+}
+.services-list {
+  display: flex;
+  justify-content: space-between;
 }
 .services-title {
   font-family: "PT Sans", sans-serif;
@@ -129,7 +167,23 @@ body {
   text-decoration: none;
   color: #000000;
 }
-.footer-contacts-address-phone{
+.page-footer-container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+.footer-social {
+    width: 300px;
+    margin-right: 130px;
+  }
+.htmlacademy-link {
+  width: 200px;
+  margin: 0 auto;
+}
+.footer-contacts-address-phone {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
   font-size: 40px;
   line-height: 40x;
   font-weight: 700;
