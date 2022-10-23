@@ -24,6 +24,7 @@ html {
 }
 
 body {
+  margin: 0 auto;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   color:#333333;
@@ -34,6 +35,7 @@ body {
 .container {
   margin: 0 auto;
   width: 1200px;
+  background-color:#ffffff;
 }
 .page-header {
   color: #000000;
@@ -42,8 +44,8 @@ body {
 }
 .navigation {
   display: flex;
-  width: 507px;
   margin: 0 auto;
+  padding: 0 70px;
 }
 .navigation-list {
   width: 492px;
@@ -72,11 +74,14 @@ body {
   display: block;
   margin: 0 auto;
 }
-
+.main-index {
+  color: #000000;
+}
 .promo {
   color:#333333;
   background-color:#F2F2F2;
-  background-image: url("../images/mountain.jpg");
+  background-image: url("../images/divider.svg"), url("../images/mountain.jpg");
+  background-position: center bottom, center;
   background-size: 100% auto; /* автоматически расширяет фон при увеличении. Нужно сделать рамку и выставить картинку по центру*/
   background-repeat: no-repeat; /* убирает дублирование фоновой картинки*/
   height: 485px;
@@ -100,7 +105,8 @@ body {
 }
 .advantages-list {
   text-align: center;
-  color:#FFFFFF;
+  color:#000000;
+  list-style-type: none;
   }
 .advantages-title{
   font-family: "PT Sans", sans-serif;
@@ -117,14 +123,10 @@ body {
 .sedona-services{
      text-align: center;
 }
-.index-columns{
-  display: flex;
-  justify-content: space-between;
-  color: #000000;
-}
 .services-list {
   display: flex;
   justify-content: space-between;
+
 }
 .services-title {
   font-family: "PT Sans", sans-serif;
@@ -135,7 +137,7 @@ body {
 .services-description {
   font-size: 18px;
   line-height: 21px;
-  font-weight: 400;
+  font-weight: 415;
 }
 .caption  {
   text-align: center;}
@@ -148,8 +150,7 @@ body {
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
-  color:#FFFFFF;
-
+  color:#474646;
 }
 .subscribe-title {
   text-align: center;
@@ -157,11 +158,16 @@ body {
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
-  color:#FFFFFF;
+  color:#474646;
 }
 .subscribe{
+  margin: 0 auto;
+  background-image: url("../images/bridge_blurry");
+  background-size: cover;
+  width: 1200px;
+  height: 415px;
   text-align: center;
-  color:#FFFFFF;
+  color:#474646;
 }
 .page-footer a {
   text-decoration: none;
