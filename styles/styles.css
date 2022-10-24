@@ -70,12 +70,13 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
+.main-index {
+  color: #000000;
+}
 .promo-logo {
   display: block;
   margin: 0 auto;
-}
-.main-index {
-  color: #000000;
+  background-position: center;
 }
 .promo {
   color:#333333;
@@ -85,7 +86,12 @@ body {
   background-size: 100% auto; /* автоматически расширяет фон при увеличении. Нужно сделать рамку и выставить картинку по центру*/
   background-repeat: no-repeat; /* убирает дублирование фоновой картинки*/
   height: 485px;
+  padding: 0 51px;
 }
+.figure{
+  margin: 0;
+  width: 1200px;
+  }
 
 .heading {
   text-align: center;
@@ -104,6 +110,11 @@ body {
   text-align: center;
 }
 .advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   text-align: center;
   color:#000000;
   list-style-type: none;
@@ -118,7 +129,13 @@ body {
   text-transform: inherit;
 }
 .advantages-item {
-  background-color:#82B3D3;
+  background-color:rgba(131, 179, 211, 0.12);
+  width: 400px;
+  min-height: 384px;
+}
+.advantages-item-col {
+  width: 100%;
+  display: flex;
 }
 .sedona-services{
      text-align: center;
@@ -127,6 +144,10 @@ body {
   display: flex;
   justify-content: space-between;
 
+}
+.services-item {
+min-height: 384px;
+list-style-type: none;
 }
 .services-title {
   font-family: "PT Sans", sans-serif;
@@ -162,7 +183,7 @@ body {
 }
 .subscribe{
   margin: 0 auto;
-  background-image: url("../images/bridge_blurry");
+  background-image: url("../images/bridge_blurry.jpg");
   background-size: cover;
   width: 1200px;
   height: 415px;
