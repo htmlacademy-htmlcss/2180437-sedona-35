@@ -59,6 +59,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin: 0 auto;
 }
 .navigation-list  {
   display: flex;
@@ -79,7 +80,7 @@ body {
 }
 .navigation-link {
   display: block;
-  padding: 24px 19px;
+  padding: 20px 16px;
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 24px;
@@ -137,6 +138,7 @@ body {
   line-height: 36px;
   font-weight: 700;
   text-transform: uppercase; /*делает все буквы заглавными*/
+  text-align: center;
 }
 .heading-description {
   font-family: "PT Sans", sans-serif;
@@ -155,6 +157,7 @@ body {
   list-style-type: none;
   }
 .advantages-title{
+  padding-top: 92px;
   font-family: "PT Sans", sans-serif;
   font-size: 24px;
   line-height: 28px;
@@ -173,10 +176,12 @@ body {
   display: flex;
 }
 .sedona-services{
-     text-align: center;
+  text-align: center;
 }
 .services-list {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 380px);
+  padding-top: 80px;
   justify-content: space-between;
 
 }
@@ -228,8 +233,11 @@ list-style-type: none;
 .page-footer a {
   text-decoration: none;
   color: #000000;
+  margin-top: 0;
+  margin-bottom: 14px;
 }
 .page-footer-container {
+
   display: flex;
   width: 1200px;
   margin: 0 auto;
@@ -238,6 +246,9 @@ list-style-type: none;
     width: 300px;
     margin-right: 130px;
   }
+.footer-social-list{
+  /*list-style-type: none;*/
+}
 .htmlacademy-link {
   width: 200px;
   margin: 0 auto;
