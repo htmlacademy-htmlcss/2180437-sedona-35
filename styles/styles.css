@@ -24,14 +24,22 @@ html {
 }
 
 body {
+  display: flex;
   margin: 0 auto;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
-  color:#333333;
   background-color:#F2F2F2;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   flex-direction: column;
   min-height: 100%;
+  max-width: 1200px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+a {
+  text-decoration: none;
+  color: #000;
 }
 .visually-hidden {
   position: absolute;
@@ -51,6 +59,7 @@ body {
 .page-header {
   color: #000000;
   background-color: #ffffff;
+  height: 64px;
 
 }
 .navigation {
@@ -60,6 +69,7 @@ body {
   align-items: center;
   width: 100%;
   margin: 0 auto;
+  height: 64px;
 }
 .navigation-list  {
   display: flex;
@@ -67,13 +77,9 @@ body {
   width: 492px;
   margin: 0;
   padding: 0;
-  list-style-type: none;
+  list-style: none;
 }
-.navigation-service{
-  height: 64px;
-  margin: 0;
-  padding: 0;
-}
+
 .navigation-user {
   max-width: 492px;
   margin-left: auto;
@@ -89,16 +95,6 @@ body {
   background-color: #ffffff;
   text-align: center;
   text-decoration: none;
-}
-.navigation-user .navigation-link {
-
-  min-width: 44px;
-  min-height: 64px;
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-  width: 44px;
-  margin: 0 auto;
 }
 .page-container {
   width: 1200px;
@@ -175,6 +171,12 @@ body {
   width: 100%;
   display: flex;
 }
+.advantages-item:first-child, .advantages-item:last-child {
+  display: flex;
+  grid-column: 1/-1;
+  color: #ffffff;
+  background-color: #82b3d3;}
+
 .sedona-services{
   text-align: center;
 }
@@ -205,7 +207,7 @@ list-style-type: none;
 .caption-title {
   text-transform: uppercase;
 }
-.caption a {
+.caption {
   text-decoration: none;
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
@@ -236,6 +238,11 @@ list-style-type: none;
   margin-top: 0;
   margin-bottom: 14px;
 }
+.reset-margin-padding {
+  margin: 0;
+  padding: 0;
+}
+
 .page-footer-container {
 
   display: flex;
@@ -247,7 +254,7 @@ list-style-type: none;
     margin-right: 130px;
   }
 .footer-social-list{
-  /*list-style-type: none;*/
+  list-style-type: none;
 }
 .htmlacademy-link {
   width: 200px;
