@@ -38,7 +38,7 @@
               </a>
           </li>
           <li class="navigation-service">
-            <a class="navigation-link" href="#">Хочу сюда!</a>
+            <a class="button navigation-link" href="#">Хочу сюда!</a>
           </li>
          </ul>
        </nav>
@@ -114,48 +114,42 @@
       <!-- Переход в каталог -->
       <section class="caption" data-test="search">
         <h2 class="caption-title">Заинтересовались?</h2>
-            <p class="caption-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-            <a class="button" href="catalog.html">Поиск гостиницы в Седоне</a>
+            <p class="caption-description">Укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+            <a class="button action-link" href="catalog.html">Поиск гостиницы в Седоне</a>
       </section>
       <!-- Получить рассылку -->
       <section class="subscribe" data-test="subscribe">
           <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
-              <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-          <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
-          <button class="button subscribe-button" type="submit">
-            <span>Подписаться</span>
-          </button>
-        </form>
+              <p class="subscribe-description">Только полезная информация и никакого спама, <br> честное бойскаутское!</p>
+        <div class="subsribe-line">
+          <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
+            <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
+            <button class="button subscribe-button" type="submit">
+             <span>Подписаться</span>
+            </button>
+          </form>
+        </div>
       </section>
     </div>
     </main>
     <!-- Контакты -->
     <footer class="page-footer" data-test="footer">
-     <div class="page-footer-container">
-       <section class="footer-social">
+     <div class="footer-social">
         <h2 class="visually-hidden">Социальные сети</h2>
-        <ul class="footer-social-list">
-          <li class="footer-social-item">
-            <a class="button" href="#">
-              <span class="visually-hidden">ВКонтакте</span>
+            <a class="button-social"  href="https://vk.com/htmlacademy">
+              <img src="images/social_in_contact.svg" width="24" hight="14" alt="Вконтакте">
             </a>
-          </li>
-          <li class="footer-social-item">
-            <a class="button" href="#">
-              <span class="visually-hidden">Инстаграм</span>
+            <a class="button-social"  href="https://t.me/htmlacademy">
+              <img src="images/social_telegrams.svg" width="18" hight="16" alt="Инстаграм">
             </a>
-          </li>
-          <li class="footer-social-item">
-            <a class="button" href="#">
-              <span class="visually-hidden">Ютуб</span>
+            <a class="button-social" width="22" hight="17" href="https://www.youtube.com/user/htmlacademyru">
+              <img src="images/social_youtube.svg" width="22" hight="17" alt="Ютуб">
             </a>
-          </li>
-        </ul>
-       </section>
-        <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-        <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a>
       </div>
+        <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+        <a class="htmlacademy-link" href="https://htmlacademy.ru/">
+          <img src="images/html_academy.svg" width="115" hight="33" alt="HTMLacademy">
+        </a>
     </footer>
   </div>
   </body>
